@@ -1,0 +1,48 @@
+.portfolio-bottom{
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 100000;
+}
+  
+.portfolio-bottom>ul>li{
+  margin: 10px;
+}
+
+.portfolio-bottom input, button{
+    width: 100px; 
+    height: 50px;
+    background: #E3B873;
+    mix-blend-mode: multiply;
+    border-radius: 25%;
+    font-family: "FuturaDemiC";
+    text-transform: uppercase;
+    color: white;
+}
+
+body{
+  background: #252525;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width:1242px){
+  .portfolio-bottom__change_weight{
+    display: none;
+  }
+}
+
+iframe{
+  width: 100%;
+  height: 10243px;
+}
+
+.to-mobile-version{
+  width:60%;
+  height: 8627.65px;
+}
+
+.to-desktop-version{
+  width: 100%;
+  height: 10243px;
+}
