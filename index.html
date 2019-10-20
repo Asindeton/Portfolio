@@ -18,7 +18,7 @@
                 <li><img src="./assets/img/Zeb1eOVnrz0.jpg" alt=""></li>
                 <li>
                     <ul class="about-me">
-                        <li>Dmitry Legankov</li>
+                        <li><h1>Dmitry Legankov</h1></li>
                         <li><a href="https://github.com/Asindeton">GitHub</a></li>
                         <li>
                           <ul class="about-me_inform">
@@ -35,21 +35,103 @@
             <details>
                 <summary>Education</summary>
                 <div class="content">
-                    <p>School</p>
-                    <p>College</p>
-                    <p>University</p>
-                    <p>Rolling Scope School</p>
+                    <p>School <br>
+                    2003-2011</p>
+                    <p>College <br>
+                    2011-2016</p>
+                    <p>University <br>
+                    2016-2021</p>
+                    <p>Rolling Scope School <br>
+                    2019-2020</p>
                 </div>
             </details>
         </div>
     </header>
     <main>
-      <div class="slider">
-        <h2>Projects</h2>
-        <a href="./assets/examples/repair-design-project/index.html"><img src="./assets/img/RepairDesingProject.png" alt=""></a>
-        <a href="./assets/examples/theyalow/index.html"><img src="./assets/img/TheYalow.png" alt=""></a>
+      <div class="slider-block">
+        <ul>
+          <li class="slider-block__header"><h2>Projects</h2></li>
+          <li class="slider-block__slider-content">
+              <div class="carousel">
+                  <div class="items-container">
+                    <div class="item active">
+                      <div class="description">
+                        <div class="project-name">
+                          <span class="theyalow">
+                            <ul class="slide-description">
+                              <li>TheYalow</li>
+                              <li>
+                                <ul>
+                                  <li>Responsive</li>
+                                  <li>Svg</li>
+                                  <li><s>Slider + pagination via js</s></li>
+                                </ul>                          
+                              </li>
+                              <li>Tap on image to see the project</li>
+                            </ul>
+                          </span>
+                        </div>
+                        <div class="project-name__mobile">
+                          <ul class="project-name__mobile-content">
+                            <li>Show description</li>
+                            <li class="show_description_button"></li>
+                            <li class="show_description_button-content" id="visible">
+                                <ul>
+                                  <li>Responsive</li>
+                                  <li>Svg</li>
+                                  <li><s>Slider + pagination via js</s></li>
+                                </ul>                          
+                              </li>
+                          </ul>
+                        </div>
+                        <a href="./assets/examples/theyalow/index.html"><img class="project-image" src="./assets/img/theyalow.png" alt="project"></a>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="description">
+                        <div class="project-name"><span class="repair-design-project">
+                          <ul class="slide-description">
+                            <li>Repair-Design-Project</li>
+                            <li>
+                              <ul>
+                                <li>Responsive</li>
+                                <li>Svg</li>
+                                <li><s>Slider + pagination via js</s></li>
+                              </ul>                          
+                            </li>
+                            <li>Tap on image to see the project</li>
+                          </ul>
+                        </span>
+                        </div>
+                        <div class="project-name__mobile">
+                            <ul class="project-name__mobile-content">
+                              <li>Show description</li>
+                              <li class="show_description_button"></li>
+                              <li class="show_description_button-content">
+                                  <ul>
+                                      <li>Responsive</li>
+                                      <li>Svg</li>
+                                      <li><s>Slider + pagination via js</s></li>
+                                  </ul> 
+                              </li>
+                            </ul>
+                          </div>
+                        <a href="./assets/examples/repair-design-project/index.html"><img class="project-image" src="./assets/img/repair-design-project.png" alt="project"></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="control left">
+                    <div class="arrow left">&lt;</div>
+                  </div>
+                  <div class="control right">
+                    <div class="arrow right">&gt;</div>
+                  </div>
+                </div>
+          </li>
+        </ul>
       </div>
     </main>
   </div>
+  <script src="./script.js"></script>
 </body>
 </html>

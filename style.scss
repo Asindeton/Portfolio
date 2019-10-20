@@ -1,6 +1,29 @@
+
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("./assets/fonts/Cinzel/Cinzel-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Proxima_Nova";
+    src: url("./assets/fonts/Proxima_Nova/12093.ttf");
+}
+
+@font-face {
+    font-family: "Caesar_Dressing";
+    src: url("./assets/fonts/Caesar_Dressing/CaesarDressing-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Yeseva One";
+    src: url("./assets/fonts/Yeseva_One/YesevaOne-Regular.ttf");
+}
+
 body{
-    background: #ff7b74 ;
     padding: 0 10px;
+    color: rgba(255,255,255,.8);
+    background: url('./assets/img/demo-bg.jpg');
 }
 
 ul{
@@ -9,22 +32,27 @@ ul{
     align-items: center;
 }
 
+h1{
+    color: rgb(255,255,255);
+}
+
 .wrapper{
     margin: 50px auto;
     max-width: 800px;
-    background: rgba(255,255,255,.3);
-    padding: 20px 20px;
+    background: rgba(0,0,0,.3);
+    padding: 0 20px;
 }
 
 .section-about-me {
 
-    border-bottom: 5px solid #5AC667;
+    border-bottom: 5px solid rgba(255,255,255,.2);
     padding: 50px 0;
 
     ul>li>img{
         width: 250px;
         height: 250px;
         border-radius: 50%;
+        margin-bottom: 10px;
     }
 
     .about-me{
@@ -36,12 +64,13 @@ ul{
 
         font-style: normal;
         font-weight: normal;
+        font-family: 'Cinzel';
         font-size: 40px;
         line-height: 53px;
         
         a{
             text-decoration: none;
-            color: black;
+            color: rgba(255,255,255,.8);
         }
 
         .about-me_inform{
@@ -54,24 +83,153 @@ ul{
     }
 }
 
+.repair-design-project{
+  font-family: "Yeseva One";
+
+}
+
+.theyalow{
+  font-family: "Yeseva One";
+
+}
+
+.slide-description{
+  align-items: flex-start;
+}
+
 main{
     margin: 10px auto;
     width: 100%;
-    height: 600px;
+    height: 580px;
     overflow: hidden;
 
-    .slider{
-        width: 3000px;
-        height: 100%;
+    .slider-block{
+
+        .slider-block__header{
+            font-size: 32px;
+            margin: 5px;
+            font-family: "Caesar_Dressing";
+        }
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            li.slider-block__slider-content{
+                width: 100%;
+                position: relative;
+                
+                .carousel {
+                    position: absolute;
+                    top:280px;
+                    left: 50%;
+                    width: 100%;
+                    text-align: center;
+                    transform: translate(-50%, -50%);
+                  }
+                  
+                  .items-container {
+                    position: relative;
+                    width: 100%;
+                    overflow: hidden;
+                  }
+                  
+                  .item {
+                    display: none;
+                    position: relative;
+                    animation: 0.5s ease-in-out;
+                    margin: 0 auto;
+                  }
+                  
+                  .active,
+                  .next {
+                    display: block;
+                  }
+                  
+                  .next {
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                  }
+                  
+                  .description {
+                    margin: 30px 20%;
+                    font-size: 32px;
+
+                    display: flex;
+                    justify-content: space-between;
+                    overflow: hidden;
+                  }
+                  
+                  .project-name {
+                    padding: 10px;
+                  }
+                  
+                  .control {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    width: 15%;
+                    cursor: pointer;
+                  }
+                  
+                  .control.left {
+                    left: 0;
+                    right: auto;
+                  }
+                  
+                  .control.right {
+                    right: 0;
+                    left: auto;
+                  }
+                  
+                  .arrow {
+                    display: inline-block;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    font-size: 84px;
+                  }
+                  
+                  .arrow.right {
+                    right: 50%;
+                  }
+                  
+                  .to-left {
+                    animation-name: left;
+                  }
+                  
+                  .from-right {
+                    animation-name: right;
+                  }
+                  
+                  .to-right {
+                    animation-name: right;
+                    animation-direction: reverse;
+                  }
+                  
+                  .from-left {
+                    animation-name: left;
+                    animation-direction: reverse;
+                  }
+
+
+                }
+
+            }
+        } 
+
     }
-}
+
 
 .section-education{
-    border-bottom: 5px solid #5AC667;
+    border-bottom: 5px solid rgba(255,255,255,.3);
     padding: 50px 0;
 
     details {
-        border: 1px solid #aaa;
+        border: 1px solid rgba(255,255,255,.3);
         border-radius: 4px;
         padding: .5em .5em 0;
     }
@@ -80,11 +238,12 @@ main{
         font-weight: bold;
         margin: -.5em -.5em 0;
         padding: .5em;
+        font-family: 'Proxima_Nova';
     }
     
     details[open] {
         padding: .5em;
-        background: red;
+        background: transparent;
     }
     
     details[open] summary {
@@ -98,5 +257,109 @@ main{
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
+        font-family: 'Proxima_Nova';
     }
 }
+.project-name__mobile{
+  display: none;
+}
+
+.visible{
+  display: block;
+}
+.show_description_button-content{
+  position: absolute;
+  left: 80%;
+  top: 10px;
+  display: none;
+  background: rgba(255,255,255,.2);
+}
+
+@keyframes left {
+    from {
+      left: 0;
+    }
+    to {
+      left: -100%;
+    }
+  }
+  
+@keyframes right {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0;
+    }
+}
+
+@media (max-width: 830px) {
+    .description {
+      flex-direction: column;
+      align-items: center;
+    }
+    .about-me_inform{
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+    .slider-block__header{
+        display: none;
+    }
+    
+    .project-name{
+      display: none;
+    }
+
+    .project-name__mobile{
+      display: block;
+      margin: 15px auto;
+      
+        .project-name__mobile-content{
+          flex-direction: row;
+        }
+    }
+    .show_description_button-content:hover{display:block}
+    .show_description_button{
+      margin-left: 10px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 1px solid white;
+      background: transparent;
+
+        &:hover{
+          cursor: pointer;
+        }
+    }
+  }
+  
+
+  @media (max-width:560px) {
+    .control>.arrow {
+      display: none !important;
+    }
+  
+    .project-name {
+      display: none;
+    }
+  
+    .description {
+      border: 0 !important;
+    }
+
+    .section-about-me{
+        >ul{
+            flex-direction: column;
+        }
+    }
+
+    .slider-block__header{
+        display: none;
+    }
+
+    .about-me{
+        margin-top: 15px;
+    }
+  }
+

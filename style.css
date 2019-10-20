@@ -1,6 +1,23 @@
+@font-face {
+  font-family: "Cinzel";
+  src: url("./assets/fonts/Cinzel/Cinzel-Regular.ttf");
+}
+@font-face {
+  font-family: "Proxima_Nova";
+  src: url("./assets/fonts/Proxima_Nova/12093.ttf");
+}
+@font-face {
+  font-family: "Caesar_Dressing";
+  src: url("./assets/fonts/Caesar_Dressing/CaesarDressing-Regular.ttf");
+}
+@font-face {
+  font-family: "Yeseva One";
+  src: url("./assets/fonts/Yeseva_One/YesevaOne-Regular.ttf");
+}
 body {
-  background: #ff7b74;
   padding: 0 10px;
+  color: rgba(255, 255, 255, 0.8);
+  background: url("./assets/img/demo-bg.jpg");
 }
 
 ul {
@@ -9,21 +26,26 @@ ul {
   align-items: center;
 }
 
+h1 {
+  color: white;
+}
+
 .wrapper {
   margin: 50px auto;
   max-width: 800px;
-  background: rgba(255, 255, 255, 0.3);
-  padding: 20px 20px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0 20px;
 }
 
 .section-about-me {
-  border-bottom: 5px solid #5AC667;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.2);
   padding: 50px 0;
 }
 .section-about-me ul > li > img {
   width: 250px;
   height: 250px;
   border-radius: 50%;
+  margin-bottom: 10px;
 }
 .section-about-me .about-me {
   height: 250px;
@@ -33,35 +55,136 @@ ul {
   align-items: flex-start;
   font-style: normal;
   font-weight: normal;
+  font-family: "Cinzel";
   font-size: 40px;
   line-height: 53px;
 }
 .section-about-me .about-me a {
   text-decoration: none;
-  color: black;
+  color: rgba(255, 255, 255, 0.8);
 }
 .section-about-me .about-me .about-me_inform li {
   margin-right: 10px;
   font-size: 40px;
 }
 
+.repair-design-project {
+  font-family: "Yeseva One";
+}
+
+.theyalow {
+  font-family: "Yeseva One";
+}
+
+.slide-description {
+  align-items: flex-start;
+}
+
 main {
   margin: 10px auto;
   width: 100%;
-  height: 600px;
+  height: 580px;
   overflow: hidden;
 }
-main .slider {
-  width: 3000px;
-  height: 100%;
+main .slider-block .slider-block__header {
+  font-size: 32px;
+  margin: 5px;
+  font-family: "Caesar_Dressing";
+}
+main .slider-block ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .slider-block ul li.slider-block__slider-content {
+  width: 100%;
+  position: relative;
+}
+main .slider-block ul li.slider-block__slider-content .carousel {
+  position: absolute;
+  top: 280px;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+main .slider-block ul li.slider-block__slider-content .items-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+main .slider-block ul li.slider-block__slider-content .item {
+  display: none;
+  position: relative;
+  animation: 0.5s ease-in-out;
+  margin: 0 auto;
+}
+main .slider-block ul li.slider-block__slider-content .active,
+main .slider-block ul li.slider-block__slider-content .next {
+  display: block;
+}
+main .slider-block ul li.slider-block__slider-content .next {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+main .slider-block ul li.slider-block__slider-content .description {
+  margin: 30px 20%;
+  font-size: 32px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+main .slider-block ul li.slider-block__slider-content .project-name {
+  padding: 10px;
+}
+main .slider-block ul li.slider-block__slider-content .control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 15%;
+  cursor: pointer;
+}
+main .slider-block ul li.slider-block__slider-content .control.left {
+  left: 0;
+  right: auto;
+}
+main .slider-block ul li.slider-block__slider-content .control.right {
+  right: 0;
+  left: auto;
+}
+main .slider-block ul li.slider-block__slider-content .arrow {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 84px;
+}
+main .slider-block ul li.slider-block__slider-content .arrow.right {
+  right: 50%;
+}
+main .slider-block ul li.slider-block__slider-content .to-left {
+  animation-name: left;
+}
+main .slider-block ul li.slider-block__slider-content .from-right {
+  animation-name: right;
+}
+main .slider-block ul li.slider-block__slider-content .to-right {
+  animation-name: right;
+  animation-direction: reverse;
+}
+main .slider-block ul li.slider-block__slider-content .from-left {
+  animation-name: left;
+  animation-direction: reverse;
 }
 
 .section-education {
-  border-bottom: 5px solid #5AC667;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.3);
   padding: 50px 0;
 }
 .section-education details {
-  border: 1px solid #aaa;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   padding: 0.5em 0.5em 0;
 }
@@ -69,10 +192,11 @@ main .slider {
   font-weight: bold;
   margin: -0.5em -0.5em 0;
   padding: 0.5em;
+  font-family: "Proxima_Nova";
 }
 .section-education details[open] {
   padding: 0.5em;
-  background: red;
+  background: transparent;
 }
 .section-education details[open] summary {
   border-bottom: 1px solid #aaa;
@@ -84,6 +208,103 @@ main .slider {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
+  font-family: "Proxima_Nova";
+}
+
+.project-name__mobile {
+  display: none;
+}
+
+.show_description_button-content {
+  position: absolute;
+  left: 80%;
+  top: 10px;
+  display: none;
+}
+
+@keyframes left {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}
+@keyframes right {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0;
+  }
+}
+@media (max-width: 830px) {
+  .description {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-me_inform {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .slider-block__header {
+    display: none;
+  }
+
+  .project-name {
+    display: none;
+  }
+
+  .project-name__mobile {
+    display: block;
+    margin: 15px auto;
+  }
+  .project-name__mobile .project-name__mobile-content {
+    flex-direction: row;
+  }
+
+  .show_description_button-content:hover {
+    display: block;
+  }
+
+  .show_description_button {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background: transparent;
+  }
+  .show_description_button:hover {
+    cursor: pointer;
+  }
+}
+@media (max-width: 560px) {
+  .control > .arrow {
+    display: none !important;
+  }
+
+  .project-name {
+    display: none;
+  }
+
+  .description {
+    border: 0 !important;
+  }
+
+  .section-about-me > ul {
+    flex-direction: column;
+  }
+
+  .slider-block__header {
+    display: none;
+  }
+
+  .about-me {
+    margin-top: 15px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
