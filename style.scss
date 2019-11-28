@@ -70,7 +70,12 @@ h1{
         
         a{
             text-decoration: none;
-            color: rgba(255,255,255,.8);
+            color: rgb(255, 255, 255);
+            opacity: .8;
+
+              &:hover{
+                opacity: 1;
+              }
         }
 
         .about-me_inform{
