@@ -1,5 +1,1 @@
-# Portfolio
-
-$ npm install -g sass
-
-sass style.scss style.css
+# [Portfolio](https://asindeton.github.io/Portfolio/index.html)
