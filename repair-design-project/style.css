@@ -1,0 +1,2389 @@
+@font-face {
+  font-family: "Yeseva One";
+  src: url("./assets/fonts/Yeseva_One/YesevaOne-Regular.ttf");
+}
+@font-face {
+  font-family: "FuturaDemiC";
+  src: url("./assets/fonts/FuturaDemiC_Regular/FuturaDemiC Regular.otf");
+}
+@font-face {
+  font-family: "FuturaBookC";
+  src: url("./assets/fonts/FuturaBookC_Regular/FuturaBookC Regular.otf");
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./assets/fonts/Proxima_Nova/12093.ttf");
+}
+@font-face {
+  font-family: "FuturaMediumC";
+  src: url("./assets/fonts/FuturaMediumC_Regular/FuturaMediumC Regular.otf");
+}
+@media screen and (min-width: 1240px) {
+  body {
+    background: #252525;
+  }
+
+  .wrapper-mobile {
+    display: none;
+  }
+
+  .wrapper_desktop {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    flex-direction: column;
+  }
+  .wrapper_desktop .header {
+    width: 100%;
+    height: 790px;
+    margin: 0 auto;
+  }
+  .wrapper_desktop nav {
+    width: 100%;
+    background-color: #131313;
+    height: 83px;
+  }
+  .wrapper_desktop .company_name {
+    font-family: "FuturaDemiC";
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #E3B873;
+  }
+  .wrapper_desktop .phone_number {
+    font-family: "FuturaDemiC";
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+  }
+  .wrapper_desktop ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .wrapper_desktop ul.nav_bar {
+    justify-content: space-between;
+    width: 581px;
+    height: 83px;
+  }
+  .wrapper_desktop li {
+    font-family: "FuturaBookC";
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  .wrapper_desktop li > a {
+    font-family: "FuturaBookC";
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .wrapper_desktop li.home > a {
+    color: #E3B873;
+  }
+  .wrapper_desktop li.phone_number > a {
+    color: #E3B873;
+  }
+  .wrapper_desktop .button {
+    cursor: pointer;
+  }
+  .wrapper_desktop .nav-bar__button > form > .button {
+    width: 161px;
+    height: 37px;
+    background: #E3B873;
+    color: #FFFFFF;
+    font-family: "FuturaDemiC";
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px;
+    cursor: pointer;
+  }
+  .wrapper_desktop .header_test {
+    align-items: stretch;
+  }
+  .wrapper_desktop .main_header_content {
+    height: 707px;
+    width: 94%;
+    background: url("./assets/images/Desktop_version/header/image 4.3.png"), rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+  }
+  .wrapper_desktop .main_header_content li > form > input:first-child {
+    width: 207px;
+    height: 51px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    font-family: "FuturaDemiC";
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #E3B873;
+    border: 0;
+    margin-right: 20px;
+  }
+  .wrapper_desktop .main_header_content li > form > input:last-child {
+    width: 207px;
+    height: 51px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: "FuturaDemiC";
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    background: transparent;
+  }
+  .wrapper_desktop .sidebar {
+    background: #131313;
+    height: 707px;
+    width: 6%;
+    font-family: "FuturaDemiC";
+    font-size: 14px;
+    line-height: 707px;
+    text-align: center;
+    color: #E3B873;
+    align-items: center;
+  }
+  .wrapper_desktop .INSTAGRAM {
+    transform: rotate(-270deg);
+  }
+  .wrapper_desktop .INSTAGRAM > a {
+    text-decoration: none;
+    color: #E3B873;
+  }
+  .wrapper_desktop .sidebar .line {
+    position: absolute;
+    top: 500px;
+  }
+  .wrapper_desktop .header_test h2 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+  }
+  .wrapper_desktop .header_test .content {
+    font-family: "FuturaBookC";
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .wrapper_desktop .main_header_content ul {
+    flex-direction: column;
+    height: 707px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 60px;
+  }
+  .wrapper_desktop .main_header_content li + li {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .wrapper_desktop .main_header_content span {
+    color: #E3B873;
+  }
+  .wrapper_desktop .scroll_element ul {
+    height: 97px;
+    width: 247px;
+    background: #131313;
+    position: absolute;
+    top: 741px;
+    justify-content: space-evenly;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    z-index: 10;
+  }
+  .wrapper_desktop .main .main-examples {
+    width: 100%;
+    height: 849px;
+    background: #131313;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .wrapper_desktop .main .main-examples > li {
+    margin: 10px auto;
+  }
+  .wrapper_desktop .main .main-examples .online-control {
+    margin-top: 90px;
+  }
+  .wrapper_desktop .main .main-examples .main-examples__nav {
+    margin-left: 510px;
+    width: 623px;
+    justify-content: space-between;
+  }
+  .wrapper_desktop .main .main-examples .main-examples__nav li {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    opacity: 0.3;
+    border-bottom: 1px solid transparent;
+  }
+  .wrapper_desktop .main .main-examples .main-examples__nav li:hover {
+    opacity: 1;
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+  }
+  .wrapper_desktop .main-examples__box-content {
+    width: 100%;
+  }
+  .wrapper_desktop .main .main-examples__content {
+    flex-direction: column;
+    height: 482px;
+    align-items: flex-start;
+  }
+  .wrapper_desktop .main .main-examples__content .main-examples__content_slider {
+    flex-direction: row;
+    width: 205px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper_desktop .main .main-examples__content .main-examples__content_slider li:nth-child(2),
+.wrapper_desktop .main .main-examples__content .main-examples__content_slider li:nth-child(3),
+.wrapper_desktop .main .main-examples__content .main-examples__content_slider li:nth-child(4) {
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+  }
+  .wrapper_desktop .main .main-examples__content .main-examples__content_slider li:nth-child(2):hover,
+.wrapper_desktop .main .main-examples__content .main-examples__content_slider li:nth-child(3):hover,
+.wrapper_desktop .main .main-examples__content .main-examples__content_slider li:nth-child(4):hover {
+    background: #fff;
+  }
+  .wrapper_desktop .main .main-examples__content .main-examples__content_slider li:nth-child(1), .wrapper_desktop .main .main-examples__content .main-examples__content_slider li:nth-child(8) {
+    width: 41px;
+  }
+  .wrapper_desktop .main .main-examples__content .main-examples__content_slider li:nth-child(1) img, .wrapper_desktop .main .main-examples__content .main-examples__content_slider li:nth-child(8) img {
+    margin-top: 5px;
+  }
+  .wrapper_desktop .main .main-examples__content h2 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+  }
+  .wrapper_desktop .main .main-examples__content .main-examples__content-description {
+    font-family: "FuturaBookC";
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+  }
+  .wrapper_desktop .main .main-examples__content .main-examples__parm-of-projects {
+    flex-direction: row;
+  }
+  .wrapper_desktop .main .main-examples__content .main-examples__parm-of-projects p {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+  }
+  .wrapper_desktop .main .main-examples__content .main-examples__parm-of-projects .main-examples__parm-of-projects-colum1 {
+    flex-direction: column;
+    width: 156px;
+    height: 162px;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .wrapper_desktop .main .main-examples__content .main-examples__parm-of-projects .main-examples__parm-of-projects-colum2 {
+    flex-direction: column;
+    width: 213px;
+    height: 162px;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .wrapper_desktop .main .main-examples__slider {
+    position: relative;
+    width: 679px;
+    height: 479px;
+    background: url("./assets/images/Desktop_version/main/image 2.1.png");
+  }
+  .wrapper_desktop .main .main-examples__slider:active {
+    background: url("./assets/images/Desktop_version/main/image 2.png");
+  }
+  .wrapper_desktop .main .main-examples__slider > ul > li:first-child {
+    position: absolute;
+    top: 214px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    background: #E3B873;
+    border-radius: 50%;
+  }
+  .wrapper_desktop .main .main-examples__slider > ul > li:first-child img {
+    margin-top: 20px;
+    margin-left: 26px;
+  }
+  .wrapper_desktop .video-box {
+    width: 100%;
+    height: 974px;
+    background-color: #131313;
+    position: relative;
+  }
+  .wrapper_desktop .video-box .video-box__black-bg {
+    height: 266px;
+    background-color: #131313;
+  }
+  .wrapper_desktop .video-box .video-box__white-bg {
+    height: 208px;
+    background-color: #fff;
+  }
+  .wrapper_desktop .video-box .video {
+    position: absolute;
+    top: 40px;
+    left: 308px;
+  }
+  .wrapper_desktop .video-box .video-box__description {
+    flex-direction: column;
+  }
+  .wrapper_desktop .video-box .video-box__description-text {
+    height: 500px;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  .wrapper_desktop .video-box .video-box__description-text li {
+    font-family: "FuturaBookC";
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #363636;
+  }
+  .wrapper_desktop .video-box .video-box__description-text .video-box__description-text__input-area li > form {
+    text-align: start;
+  }
+  .wrapper_desktop .video-box .video-box__description-text .video-box__description-text__input-area li > form label {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 20px;
+    color: #363636;
+  }
+  .wrapper_desktop .video-box .video-box__description-text .video-box__description-text__input-area li > form input {
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    margin-right: 55px;
+    color: #363636;
+    font-family: "FuturaBookC";
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .wrapper_desktop .video-box .video-box__description-text .video-box__description-text__input-area li > form .button {
+    width: 200px;
+    height: 51px;
+    color: #FFFFFF;
+    background: #E3B873;
+    border: none;
+    text-transform: uppercase;
+  }
+  .wrapper_desktop .video-box .video-box__description-text .video-box__description-text__input-area li > form .processing {
+    background: #E3B873;
+  }
+  .wrapper_desktop .video-box label {
+    font-family: "FuturaBookC";
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper_desktop .section-types-of-repair {
+    width: 100%;
+    background-color: #fff;
+  }
+  .wrapper_desktop .section-types-of-repair .section-types-of-repair__block {
+    flex-direction: column;
+    height: 893px;
+    justify-content: space-around;
+  }
+  .wrapper_desktop .section-types-of-repair .section-types-of-repair__block .section-types-of-repair__text {
+    flex-direction: column;
+  }
+  .wrapper_desktop .section-types-of-repair .section-types-of-repair__block .section-types-of-repair__text li {
+    color: #363636;
+  }
+  .wrapper_desktop .section-types-of-repair .section-types-of-repair__block .section-types-of-repair__text li h2 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+  }
+  .wrapper_desktop .section-types-of-repair .section-types-of-repair_serves .section-types-of-repair__colon1 {
+    height: 608px;
+    margin-right: 30px;
+    width: 392px;
+    color: #363636;
+    background: no-repeat url("./assets/images/Desktop_version/Types-of-repair/image1.png");
+  }
+  .wrapper_desktop .section-types-of-repair .section-types-of-repair_serves .section-types-of-repair__colon2 {
+    height: 608px;
+    margin-right: 30px;
+    width: 392px;
+    color: #363636;
+    background: no-repeat url("./assets/images/Desktop_version/Types-of-repair/image 2.png");
+  }
+  .wrapper_desktop .section-types-of-repair .section-types-of-repair_serves .section-types-of-repair__colon3 {
+    height: 608px;
+    margin-right: 30px;
+    width: 392px;
+    color: #363636;
+    background: no-repeat url("./assets/images/Desktop_version/Types-of-repair/image 3.png");
+  }
+  .wrapper_desktop .section-types-of-repair .section-types-of-repair_serves ul {
+    list-style: inside;
+    flex-direction: column;
+    align-items: baseline;
+    color: #363636;
+  }
+  .wrapper_desktop .section-types-of-repair .section-types-of-repair_serves li {
+    color: #363636;
+    position: relative;
+  }
+  .wrapper_desktop .section-types-of-repair .section-types-of-repair_serves li div {
+    position: absolute;
+    display: inline-block;
+    background-color: #fff;
+    padding: 25px 50px 50px 34px;
+    position: absolute;
+    top: 294px;
+    left: 31px;
+  }
+  .wrapper_desktop .section-types-of-repair .section-types-of-repair_serves li div h3 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .wrapper_desktop .section-types-of-repair .section-types-of-repair_serves li div li {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 25px;
+    color: #959595;
+  }
+  .wrapper_desktop .section-types-of-repair .section-types-of-repair_serves li .button {
+    color: #fff;
+    background-color: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    width: 228px;
+    height: 54px;
+    position: absolute;
+    left: 31px;
+    top: 554px;
+    border: 0;
+  }
+  .wrapper_desktop .section-types-of-repair .section-types-of-repair_serves li .button:hover {
+    border: 1.5px solid;
+  }
+  .wrapper_desktop .section-request {
+    background-color: #fff;
+    width: 100%;
+    height: 935px;
+  }
+  .wrapper_desktop .section-request .section-request__colum {
+    display: flex;
+    flex-direction: row;
+    height: 935px;
+    justify-content: space-between;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__colum-services {
+    height: 645px;
+    margin-bottom: 120px;
+    width: 750px;
+    background: no-repeat url("./assets/images/Desktop_version/request/image 6.1.png");
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__colum-services > div {
+    height: 645px;
+    background: no-repeat url("./assets/images/Desktop_version/request/Component 1.svg");
+    z-index: 100;
+    margin-top: 50px;
+    margin-left: 10px;
+    position: relative;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__colum-services > div ul {
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 406px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__colum-services > div ul li:nth-child(1) {
+    margin-top: 61px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__colum-services > div ul li:nth-child(2) {
+    margin-top: 80px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__colum-services > div ul li:nth-child(2) > span {
+    margin-left: 75px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__colum-services > div ul li:nth-child(3) {
+    margin-top: 138px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__colum-services > div ul li:nth-child(3) > span {
+    margin-left: 100px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__colum-services > div ul li:nth-child(4) {
+    margin-top: 132px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__colum-services > div ul li:nth-child(4) > span {
+    margin-left: 35px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__colum-services > div li {
+    color: #363636;
+    font-family: "FuturaMediumC";
+    font-size: 18px;
+    line-height: 21px;
+    width: 370px;
+    margin-top: 61px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__form {
+    margin-right: 48px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__form ul {
+    flex-direction: column;
+    height: 632px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__form ul .section-request__form_form > ul {
+    position: relative;
+    background: #131313;
+    flex-direction: column;
+    height: 509px;
+    width: 506px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__form ul .section-request__form_form > ul > li {
+    margin: 20px auto;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__form ul .section-request__form_form > ul .section-request__form_form-text {
+    font-family: "FuturaDemiC";
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__form ul .section-request__form_form > ul .section-request__form_form-checkbox {
+    margin-left: 30px;
+    margin-top: 0px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__form ul .section-request__form_form > ul input.text-area {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-right: 55px;
+    color: #FFFFFF;
+    font-family: "FuturaBookC";
+    font-size: 18px;
+    line-height: 24px;
+    background: transparent;
+    width: 100%;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__form ul .section-request__form_form > ul .processing {
+    color: #FFFFFF;
+    font-family: "FuturaBookC";
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__form ul .section-request__form_form > ul .button {
+    position: absolute;
+    width: 213px;
+    height: 51px;
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border: none;
+    left: 244px;
+    top: 440px;
+    font-family: "FuturaDemiC";
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__form ul .section-request__form_form > ul .button:hover {
+    border: 2px solid;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__form ul .section-request__form_image ul {
+    flex-direction: row;
+    height: 72px;
+  }
+  .wrapper_desktop .section-request .section-request__colum .section-request__form ul .section-request__form_image ul li {
+    color: #E3B873;
+    font-family: "FuturaDemiC";
+    font-size: 20px;
+    line-height: 25px;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+  }
+  .wrapper_desktop .section-wildest-fantasies {
+    width: 100%;
+    height: 864px;
+    background: url("./assets/images/Desktop_version/wildest-fantasies/image 5.1.png"), linear-gradient(121.24deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+    background-blend-mode: multiply;
+    position: relative;
+  }
+  .wrapper_desktop .section-wildest-fantasies .section-wildest-fantasies__colum-text {
+    width: 415px;
+  }
+  .wrapper_desktop .section-wildest-fantasies .section-wildest-fantasies__colum-text ul {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 864px;
+  }
+  .wrapper_desktop .section-wildest-fantasies .section-wildest-fantasies__colum-text ul .section-wildest-fantasies__colum-text-head {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-bottom: 50px;
+  }
+  .wrapper_desktop .section-wildest-fantasies .section-wildest-fantasies__colum-text ul .section-wildest-fantasies__colum-text-main ul {
+    height: 518px;
+    justify-content: space-between;
+  }
+  .wrapper_desktop .section-wildest-fantasies .section-wildest-fantasies__colum-text ul .section-wildest-fantasies__colum-text-main li {
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    line-height: 34px;
+    border-bottom: 0.67px solid transparent;
+  }
+  .wrapper_desktop .section-wildest-fantasies .section-wildest-fantasies__colum-text ul .section-wildest-fantasies__colum-text-main li:hover {
+    color: #E3B873;
+    border-bottom: 0.67px solid #E3B873;
+  }
+  .wrapper_desktop .section-wildest-fantasies .section-wildest-fantasies__colum-img1 {
+    margin-top: -40px;
+  }
+  .wrapper_desktop .section-wildest-fantasies .section-wildest-fantasies__colum-img1 ul {
+    justify-content: space-between;
+    flex-direction: column;
+    height: 947px;
+  }
+  .wrapper_desktop .section-wildest-fantasies .section-wildest-fantasies__colum-img2 {
+    margin-top: -110px;
+  }
+  .wrapper_desktop .section-wildest-fantasies .section-wildest-fantasies__colum-img2 ul {
+    flex-direction: column;
+    height: 947px;
+    justify-content: space-between;
+  }
+  .wrapper_desktop .section-design-project {
+    height: 620px;
+    background: #FFFFFF;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row {
+    flex-direction: column;
+    height: 1075px;
+    justify-content: space-around;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_header {
+    height: 66px;
+    margin-top: 155px;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_header ul {
+    flex-direction: column;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_header li {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #363636;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_text {
+    height: 57px;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_text p {
+    font-family: "FuturaBookC";
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #363636;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum {
+    height: 735px;
+    width: 100%;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 {
+    background: #131313;
+    width: 392px;
+    height: 735px;
+    position: relative;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 div {
+    width: 392px;
+    height: 421px;
+    background: no-repeat url("./assets/images/Desktop_version/design_project/image1.png"), rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 div .section-design-project__row_colum1-text {
+    background: #fff;
+    flex-direction: column;
+    width: 296px;
+    padding: 25px 0px 57px 34px;
+    align-items: flex-start;
+    position: absolute;
+    top: 294px;
+    left: 31px;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 div .section-design-project__row_colum1-text h3 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 div .section-design-project__row_colum1-text ul {
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: inside;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 div .section-design-project__row_colum1-text li {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 25px;
+    color: #959595;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 .button {
+    color: #fff;
+    background-color: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    width: 228px;
+    height: 54px;
+    position: absolute;
+    left: 31px;
+    top: 478px;
+    border: 0;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum1 .button:hover {
+    border: 1.5px solid;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 {
+    background: #131313;
+    width: 392px;
+    height: 735px;
+    position: relative;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 div {
+    width: 392px;
+    height: 421px;
+    background: no-repeat url("./assets/images/Desktop_version/design_project/image 3.png"), rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 div .section-design-project__row_colum2-text {
+    background: #fff;
+    flex-direction: column;
+    width: 296px;
+    padding: 25px 0px 57px 34px;
+    align-items: flex-start;
+    position: absolute;
+    top: 294px;
+    left: 31px;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 div .section-design-project__row_colum2-text h3 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 div .section-design-project__row_colum2-text ul {
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: inside;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 div .section-design-project__row_colum2-text li {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 25px;
+    color: #959595;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 .button {
+    color: #fff;
+    background-color: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    width: 228px;
+    height: 54px;
+    position: absolute;
+    left: 31px;
+    top: 553px;
+    border: 0;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum2 .button:hover {
+    border: 1.5px solid;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 {
+    background: #131313;
+    width: 392px;
+    height: 735px;
+    position: relative;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 div {
+    width: 392px;
+    height: 421px;
+    background: no-repeat url("./assets/images/Desktop_version/design_project/image 3.1.png"), rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 div .section-design-project__row_colum3-text {
+    background: #fff;
+    flex-direction: column;
+    width: 296px;
+    padding: 25px 0px 57px 34px;
+    align-items: flex-start;
+    position: absolute;
+    top: 294px;
+    left: 31px;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 div .section-design-project__row_colum3-text h3 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 div .section-design-project__row_colum3-text ul {
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: inside;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 div .section-design-project__row_colum3-text li {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 25px;
+    color: #959595;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 .button {
+    color: #fff;
+    background-color: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    width: 228px;
+    height: 54px;
+    position: absolute;
+    left: 31px;
+    top: 681px;
+    border: 0;
+  }
+  .wrapper_desktop .section-design-project .section-design-project__row .section-design-project__row_colum .section-design-project__row_colum3 .button:hover {
+    border: 1.5px solid;
+  }
+  .wrapper_desktop .section-steps-to-the-goal {
+    width: 100%;
+    height: 1179px;
+    background: #131313;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal-main {
+    justify-content: space-around;
+  }
+  .wrapper_desktop .section-steps-to-the-goal ul {
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main {
+    height: 1615px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main .section-steps-to-the-goal__colone1_main_head li {
+    font-family: "FuturaDemiC";
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main .section-steps-to-the-goal__colone1_main_head .section-steps-to-the-goal__colone1_main_head2 {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 302px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main .section-steps-to-the-goal__colone1_main_head .section-steps-to-the-goal__colone1_main_head2 li {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main .section-steps-to-the-goal__colone1_main_head .section-steps-to-the-goal__colone1_main_head2 li img {
+    margin-bottom: 9px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_text {
+    height: 323px;
+    margin: 92px 0 61px 0;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_text li:nth-child(1) {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_text li:nth-child(2) {
+    color: #E3B873;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    text-transform: uppercase;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_text li:nth-child(3) {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider {
+    flex-direction: row;
+    width: 290px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(2),
+.wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(3),
+.wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(4),
+.wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(5),
+.wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(6),
+.wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(7) {
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(2):hover,
+.wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(3):hover,
+.wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(4):hover,
+.wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(5):hover,
+.wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(6):hover,
+.wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(7):hover {
+    background: #fff;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(1), .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(8) {
+    width: 41px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(1) img, .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone1 .section-steps-to-the-goal__colone1_main_slider li:nth-child(8) img {
+    margin-top: 5px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 {
+    height: 599px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 ul {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2-main {
+    height: 686px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text {
+    width: 770px;
+    margin-top: 87px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text ul {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone1 ul {
+    flex-direction: column;
+    height: 178px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone1 .section-steps-to-the-goal__colone2_text_colone1-elem1 ul {
+    height: 71px;
+    opacity: 0.3;
+    justify-content: space-around;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone1 .section-steps-to-the-goal__colone2_text_colone1-elem1 ul:hover {
+    opacity: 1;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone1 .section-steps-to-the-goal__colone2_text_colone1-elem1 ul li:nth-child(1) {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #E3B873;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone1 .section-steps-to-the-goal__colone2_text_colone1-elem1 ul li:nth-child(2) {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone1 .section-steps-to-the-goal__colone2_text_colone1-elem2 ul {
+    height: 71px;
+    opacity: 0.3;
+    justify-content: space-around;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone1 .section-steps-to-the-goal__colone2_text_colone1-elem2 ul:hover {
+    opacity: 1;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone1 .section-steps-to-the-goal__colone2_text_colone1-elem2 ul li:nth-child(1) {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #E3B873;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone1 .section-steps-to-the-goal__colone2_text_colone1-elem2 ul li:nth-child(2) {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone2 ul {
+    flex-direction: column;
+    height: 178px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone2 .section-steps-to-the-goal__colone2_text_colone2-elem1 ul {
+    height: 71px;
+    opacity: 0.3;
+    justify-content: space-around;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone2 .section-steps-to-the-goal__colone2_text_colone2-elem1 ul:hover {
+    opacity: 1;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone2 .section-steps-to-the-goal__colone2_text_colone2-elem1 ul li:nth-child(1) {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #E3B873;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone2 .section-steps-to-the-goal__colone2_text_colone2-elem1 ul li:nth-child(2) {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone2 .section-steps-to-the-goal__colone2_text_colone2-elem2 ul {
+    height: 71px;
+    opacity: 0.3;
+    justify-content: space-around;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone2 .section-steps-to-the-goal__colone2_text_colone2-elem2 ul:hover {
+    opacity: 1;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone2 .section-steps-to-the-goal__colone2_text_colone2-elem2 ul li:nth-child(1) {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #E3B873;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone2 .section-steps-to-the-goal__colone2_text_colone2-elem2 ul li:nth-child(2) {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone3 ul {
+    flex-direction: column;
+    height: 178px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone3 .section-steps-to-the-goal__colone2_text_colone3-elem1 ul {
+    height: 71px;
+    opacity: 0.3;
+    justify-content: space-around;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone3 .section-steps-to-the-goal__colone2_text_colone3-elem1 ul:hover {
+    opacity: 1;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone3 .section-steps-to-the-goal__colone2_text_colone3-elem1 ul li:nth-child(1) {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #E3B873;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone3 .section-steps-to-the-goal__colone2_text_colone3-elem1 ul li:nth-child(2) {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone3 .section-steps-to-the-goal__colone2_text_colone3-elem2 ul {
+    height: 71px;
+    opacity: 0.3;
+    justify-content: space-around;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone3 .section-steps-to-the-goal__colone2_text_colone3-elem2 ul:hover {
+    opacity: 1;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone3 .section-steps-to-the-goal__colone2_text_colone3-elem2 ul li:nth-child(1) {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #E3B873;
+  }
+  .wrapper_desktop .section-steps-to-the-goal .section-steps-to-the-goal__colone2 .section-steps-to-the-goal__colone2_text .section-steps-to-the-goal__colone2_text_colone3 .section-steps-to-the-goal__colone2_text_colone3-elem2 ul li:nth-child(2) {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .wrapper_desktop .section-our-team {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__black-bg {
+    height: 520px;
+    background-color: #131313;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__white-bg {
+    height: 480px;
+    background-color: #fff;
+  }
+  .wrapper_desktop .section-our-team ul {
+    flex-direction: column;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content {
+    position: absolute;
+    height: 900px;
+    background-color: transparent;
+    top: 50px;
+    width: 100%;
+    left: 50%;
+    margin-left: -50%;
+    margin-top: 50px;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-head {
+    height: 148px;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-head li:nth-child(1) {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-head li:nth-child(3) {
+    font-family: "FuturaBookC";
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper {
+    width: 100%;
+    margin: 50px 0px;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team {
+    flex-direction: row;
+    width: 100%;
+    height: 450px;
+    justify-content: space-around;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div {
+    width: 307px;
+    height: 450px;
+    position: relative;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .icon {
+    position: absolute;
+    background: #E3B873;
+    padding: 12px;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .main-photo {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .section-our-team__content-main-team-inform {
+    position: absolute;
+    background: #fff;
+    width: 235px;
+    height: 93px;
+    z-index: 15;
+    left: 56px;
+    top: 312px;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .section-our-team__content-main-team-inform .section-our-team__content-main-team-inform-content {
+    height: 93px;
+    justify-content: center;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .section-our-team__content-main-team-inform li:nth-child(1) {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 9px;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .section-our-team__content-main-team-inform li:nth-child(2) {
+    font-family: "FuturaBookC";
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #959595;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-team-wrapper .section-our-team__content-main-team div .section-our-team__content-main-team-inform-work-experience {
+    position: absolute;
+    width: 235px;
+    height: 44px;
+    background: #E3B873;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 20;
+    left: 56px;
+    top: 405px;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-description {
+    height: 140px;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-description li:nth-child(1) {
+    width: 55px;
+    border-top: 2px solid #E3B873;
+  }
+  .wrapper_desktop .section-our-team .section-our-team__content .section-our-team__content-main-description li:nth-child(2) {
+    color: #131313;
+    font-family: "FuturaBookC";
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .wrapper_desktop .section-our-clients {
+    width: 100%;
+    height: 833px;
+    background: #fff;
+  }
+  .wrapper_desktop .section-our-clients ul {
+    flex-direction: column;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__head {
+    height: 148px;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__head li:nth-child(1) {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #363636;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__head li:nth-child(3) {
+    font-family: "FuturaBookC";
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #363636;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper {
+    height: 455px;
+    width: 100%;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper li {
+    color: #000;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper .section-our-clients__content {
+    flex-direction: row;
+    width: 100%;
+    height: 455px;
+    justify-content: space-around;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper .section-our-clients__content div {
+    position: relative;
+    width: 380px;
+    height: 455px;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper .section-our-clients__content div .section-our-clients__content-column {
+    width: 380px;
+    height: 455px;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper .section-our-clients__content div .section-our-clients__content-column .section-our-clients__content-column-photo img {
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    border-radius: 50%;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper .section-our-clients__content div .section-our-clients__content-column .section-our-clients__content-column-name {
+    position: absolute;
+    top: 41px;
+    left: 120px;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper .section-our-clients__content div .section-our-clients__content-column .section-our-clients__content-column-text {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 180%;
+    color: #959595;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper .section-our-clients__content div .section-our-clients__content-column .section-our-clients__content-column-description {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 294px;
+    height: 54px;
+    background: #E3B873;
+    flex-direction: row;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper .section-our-clients__content div .section-our-clients__content-column .section-our-clients__content-column-description .section-our-clients__content-column-description-area {
+    flex-direction: row;
+    width: 137px;
+    height: 54px;
+    border-right: 1px solid #fff;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper .section-our-clients__content div .section-our-clients__content-column .section-our-clients__content-column-description .section-our-clients__content-column-description-area li + li {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper .section-our-clients__content div .section-our-clients__content-column .section-our-clients__content-column-description .section-our-clients__content-column-description-days {
+    flex-direction: row;
+    width: 137px;
+    height: 54px;
+  }
+  .wrapper_desktop .section-our-clients .section-our-clients__content_wrapper .section-our-clients__content div .section-our-clients__content-column .section-our-clients__content-column-description .section-our-clients__content-column-description-days li + li {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .wrapper_desktop .section-question {
+    position: relative;
+    width: 100%;
+    height: 223px;
+    background: #fff;
+    z-index: 100;
+  }
+  .wrapper_desktop .section-question .section-question__content {
+    position: absolute;
+    width: 890px;
+    left: 50%;
+    margin-left: -445px;
+    height: 455px;
+    background: #131313;
+  }
+  .wrapper_desktop .section-question .section-question__content .section-question__content-wrapper {
+    height: 455px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .wrapper_desktop .section-question .section-question__content .section-question__content-wrapper .section-question__content-submit .button {
+    width: 200px;
+    height: 51px;
+    color: #FFFFFF;
+    background: #E3B873;
+    border: none;
+    font-family: "FuturaDemiC";
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .wrapper_desktop .section-question .section-question__content .section-question__content-wrapper .section-question__content-head {
+    color: #FFFFFF;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .wrapper_desktop .section-question .section-question__content .section-question__content-wrapper .section-question__content-main {
+    flex-direction: column;
+  }
+  .wrapper_desktop .section-question .section-question__content .section-question__content-wrapper .section-question__content-main > li {
+    width: 100%;
+  }
+  .wrapper_desktop .section-question .section-question__content .section-question__content-wrapper .section-question__content-main form {
+    text-align: start;
+  }
+  .wrapper_desktop .section-question .section-question__content .section-question__content-wrapper .section-question__content-main form label {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  .wrapper_desktop .section-question .section-question__content .section-question__content-wrapper .section-question__content-main .section-question__content-main-personal-data {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 520px;
+  }
+  .wrapper_desktop .section-question .section-question__content .section-question__content-wrapper .section-question__content-main .section-question__content-main-personal-data input {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background: transparent;
+    color: #FFFFFF;
+    font-family: "FuturaBookC";
+    font-size: 18px;
+    line-height: 24px;
+    width: 230px;
+  }
+  .wrapper_desktop .section-question .section-question__content .section-question__content-wrapper .section-question__content-main .section-question__content-main-personal-data-question form {
+    margin-top: 50px;
+  }
+  .wrapper_desktop .section-question .section-question__content .section-question__content-wrapper .section-question__content-main .section-question__content-main-personal-data-question input.text-area {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background: transparent;
+    color: #FFFFFF;
+    font-family: "FuturaBookC";
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+  }
+  .wrapper_desktop .section-question .section-question__content .section-question__content-wrapper .section-question__content-main .section-question__content-agree {
+    font-family: "FuturaBookC";
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .wrapper_desktop .section-map {
+    position: relative;
+    width: 100%;
+    height: 950px;
+    background: no-repeat url("./assets/images/Desktop_version/map/image 7.2.png"), linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+    background-blend-mode: multiply;
+  }
+  .wrapper_desktop .section-map .section-map-content-wrapper {
+    margin-top: 220px;
+    height: 660px;
+    width: 100%;
+  }
+  .wrapper_desktop .section-map .section-map-content-wrapper .section-map-content {
+    width: 100%;
+    height: 613px;
+    flex-direction: column;
+    margin-top: 291px;
+    justify-content: space-between;
+  }
+  .wrapper_desktop .section-map .section-map-content-wrapper .section-map-content .section-map-content-location {
+    color: #E3B873;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .wrapper_desktop .section-map .section-map-content-wrapper .section-map-content .section-map-content-icon-area {
+    width: 71px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper_desktop .section-map .section-map-content-wrapper .section-map-content .section-map-content-icon-area .section-map-content-icon {
+    width: 28px;
+    height: 28px;
+    background: #E3B873;
+    border-radius: 50%;
+  }
+  .wrapper_desktop .section-map .section-map-content-wrapper .section-map-content .section-map-content-icon-area .section-map-content-icon .instagram_icon {
+    margin-top: 7px;
+    margin-left: 7px;
+  }
+  .wrapper_desktop .section-map .section-map-content-wrapper .section-map-content .section-map-content-icon-area .section-map-content-icon .mail {
+    margin-top: 7px;
+    margin-left: 2px;
+  }
+  .wrapper_desktop footer {
+    background: #131313;
+  }
+  .wrapper_desktop footer .footer-content {
+    width: 100%;
+    height: 133px;
+    align-items: center;
+  }
+  .wrapper_desktop footer .footer-content .footer-content__logo {
+    font-family: "FuturaDemiC";
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #E3B873;
+  }
+  .wrapper_desktop footer .footer-content .footer-content__nav {
+    width: 580px;
+    justify-content: space-between;
+  }
+  .wrapper_desktop footer .footer-content .footer-content__nav li {
+    font-family: "FuturaBookC";
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .wrapper_desktop footer .footer-content .footer-content__nav li:nth-child(1) {
+    color: #E3B873;
+  }
+  .wrapper_desktop footer .footer-content .footer-content__phone {
+    font-family: "FuturaDemiC";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #E3B873;
+  }
+  .wrapper_desktop footer .footer-content .footer-content__call-button input {
+    width: 161px;
+    height: 37px;
+    background: #E3B873;
+    color: #FFFFFF;
+    font-family: "FuturaDemiC";
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0;
+  }
+  .wrapper_desktop footer .footer-content .footer-content__call-button input:hover {
+    border: 1px solid wheat;
+  }
+}
+@media screen and (max-width: 1240px) {
+  body {
+    background: #252525;
+  }
+
+  .wrapper_desktop {
+    display: none;
+  }
+
+  .wrapper-mobile {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 375px;
+    background: #131313;
+  }
+  .wrapper-mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .wrapper-mobile header {
+    height: 533px;
+    background-color: #131313;
+  }
+  .wrapper-mobile header .mobile-nav {
+    height: 57px;
+  }
+  .wrapper-mobile header .mobile-nav ul {
+    flex-direction: row;
+    height: 57px;
+  }
+  .wrapper-mobile header .mobile-nav h1 {
+    font-family: "FuturaDemiC";
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #E3B873;
+  }
+  .wrapper-mobile header .mobile-nav .tel-numb__header {
+    font-family: "FuturaDemiC";
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+  .wrapper-mobile header .mobile-header {
+    width: 375px;
+    height: 476px;
+    background: no-repeat url("./assets/images/mobile_version/header/image 4.7.png"), rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+  }
+  .wrapper-mobile header .mobile-header .mobile-header_content {
+    width: 375px;
+    height: 476px;
+    align-items: flex-start;
+    margin-left: 18.5px;
+  }
+  .wrapper-mobile header .mobile-header h2 {
+    color: #FFFFFF;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 132.83%;
+    text-transform: uppercase;
+    margin-top: 80px;
+  }
+  .wrapper-mobile header .mobile-header h2 span {
+    color: #E3B873;
+  }
+  .wrapper-mobile header .mobile-header .mobile-header__text {
+    color: #FFFFFF;
+    font-family: "FuturaBookC";
+    font-size: 18px;
+    line-height: 135.84%;
+  }
+  .wrapper-mobile header .mobile-header li:nth-child(4) {
+    margin-bottom: 55px;
+  }
+  .wrapper-mobile header .mobile-header form {
+    border: none;
+    font-family: "FuturaDemiC";
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .wrapper-mobile header .mobile-header form .button__CALCULATE-THE-COST {
+    height: 51px;
+    width: 338px;
+    background: #E3B873;
+    color: #FFFFFF;
+    border: none;
+    font-family: "FuturaDemiC";
+  }
+  .wrapper-mobile header .mobile-header form .button__APPLICATION {
+    height: 51px;
+    width: 338px;
+    border: 1px solid #fff;
+    color: #FFFFFF;
+    background: transparent;
+    font-family: "FuturaDemiC";
+  }
+  .wrapper-mobile main {
+    width: 100%;
+  }
+  .wrapper-mobile main .mobile-complied-projects {
+    position: relative;
+    height: 700px;
+    background: #131313;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__text {
+    height: 246px;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__text h2 {
+    color: #E3B873;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 138.6%;
+    text-align: center;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__text li:nth-child(2) {
+    color: #FFFFFF;
+    font-family: "FuturaBookC";
+    font-size: 14px;
+    line-height: 158.48%;
+    text-align: center;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__slider {
+    position: relative;
+    height: 241px;
+    width: 340px;
+    background: url("./assets/images/mobile_version/main/complied-projects/image 2.png");
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__slider li:nth-child(1) {
+    width: 36px;
+    height: 36px;
+    background: #E3B873;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 14px;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__slider li:nth-child(2) {
+    width: 36px;
+    height: 36px;
+    background: #E3B873;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    right: 14px;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__slider img {
+    left: 16px;
+    top: 11px;
+    position: absolute;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char {
+    color: #FFFFFF;
+    flex-direction: row;
+    height: 212px;
+    width: 340px;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col1 {
+    height: 212px;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col1 ul {
+    align-items: flex-start;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col1 .mobile-complied-projects__char_col1-row1 {
+    height: 68px;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col1 .mobile-complied-projects__char_col1-row1 li:nth-child(1) {
+    color: #E3B873;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 138.6%;
+    text-transform: uppercase;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col1 .mobile-complied-projects__char_col1-row1 li:nth-child(2) {
+    font-family: "FuturaBookC";
+    font-size: 14px;
+    line-height: 135.84%;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col1 .mobile-complied-projects__char_col1-row2 {
+    height: 68px;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col1 .mobile-complied-projects__char_col1-row2 li:nth-child(1) {
+    color: #E3B873;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 138.6%;
+    text-transform: uppercase;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col1 .mobile-complied-projects__char_col1-row2 li:nth-child(2) {
+    font-family: "FuturaBookC";
+    font-size: 14px;
+    line-height: 135.84%;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col2 {
+    height: 212px;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col2 ul {
+    align-items: flex-start;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col2 .mobile-complied-projects__char_col2-row1 {
+    height: 68px;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col2 .mobile-complied-projects__char_col2-row1 li:nth-child(1) {
+    color: #E3B873;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 138.6%;
+    text-transform: uppercase;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col2 .mobile-complied-projects__char_col2-row1 li:nth-child(2) {
+    font-family: "FuturaBookC";
+    font-size: 14px;
+    line-height: 135.84%;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col2 .mobile-complied-projects__char_col2-row2 {
+    height: 68px;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col2 .mobile-complied-projects__char_col2-row2 li:nth-child(1) {
+    color: #E3B873;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 138.6%;
+    text-transform: uppercase;
+  }
+  .wrapper-mobile main .mobile-complied-projects .mobile-complied-projects__char .mobile-complied-projects__char_col2 .mobile-complied-projects__char_col2-row2 li:nth-child(2) {
+    font-family: "FuturaBookC";
+    font-size: 14px;
+    line-height: 135.84%;
+  }
+  .wrapper-mobile main .mobile-online-control-video {
+    height: 850px;
+    background: #131313;
+  }
+  .wrapper-mobile main .mobile-online-control-video .mobile-online-control-video__head {
+    height: 140px;
+  }
+  .wrapper-mobile main .mobile-online-control-video .mobile-online-control-video__head .mobile-online-control-video__head_text {
+    color: #FFFFFF;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 138.6%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .wrapper-mobile main .mobile-online-control-video .mobile-online-control-video__head .mobile-online-control-video__head_logo {
+    width: 114px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .wrapper-mobile main .mobile-online-control-video .mobile-online-control-video__text li:nth-child(1) {
+    margin-top: 25px;
+    width: 55px;
+    border-bottom: 2px solid #E3B873;
+  }
+  .wrapper-mobile main .mobile-online-control-video .mobile-online-control-video__text li:nth-child(2) {
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-family: "FuturaBookC";
+    font-size: 14px;
+    line-height: 169.8%;
+    text-align: center;
+  }
+  .wrapper-mobile main .mobile-online-control-video .mobile-online-control-video__form {
+    margin-top: 25px;
+    height: 311px;
+    justify-content: space-between;
+    color: #FFFFFF;
+  }
+  .wrapper-mobile main .mobile-online-control-video .mobile-online-control-video__form input.text-area {
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    background: transparent;
+    color: #FFFFFF;
+    font-family: "FuturaBookC";
+    font-size: 18px;
+    line-height: 25px;
+    width: 340px;
+  }
+  .wrapper-mobile main .mobile-online-control-video .mobile-online-control-video__form label.text-area {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 20px;
+    /*  color: rgba(255, 255, 255, 0.5); */
+  }
+  .wrapper-mobile main .mobile-online-control-video .mobile-online-control-video__form .button__SUBMIT {
+    width: 340px;
+    height: 50px;
+    color: #FFFFFF;
+    background: #E3B873;
+    font-family: "FuturaDemiC";
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px;
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair {
+    height: 2030px;
+    background: #fff;
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper {
+    height: 1830px;
+    justify-content: space-between;
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__text {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 138.6%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__text .mobile-section-types_of_repair__text_logo {
+    flex-direction: row;
+    align-items: center;
+    width: 114px;
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__text .mobile-section-types_of_repair__text_logo li:nth-child(3) {
+    margin-bottom: 14px;
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__text .mobile-section-types_of_repair__text_logo li:nth-child(1) {
+    margin-bottom: 14px;
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__examples > li {
+    margin-bottom: 60px;
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__examples .mobile-section-types-of-repair_serves {
+    position: relative;
+    height: 484px;
+    width: 340px;
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__examples .mobile-section-types-of-repair_serves .mobile-section-types-of-repair__colon1 {
+    height: 484px;
+    width: 340px;
+    background: no-repeat url("./assets/images/mobile_version/main/types_of_repair/image1.png");
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__examples .mobile-section-types-of-repair_serves .mobile-section-types-of-repair__colon2 {
+    height: 484px;
+    width: 340px;
+    background: no-repeat url("./assets/images/mobile_version/main/types_of_repair/image2.png");
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__examples .mobile-section-types-of-repair_serves .mobile-section-types-of-repair__colon3 {
+    height: 484px;
+    width: 340px;
+    background: no-repeat url("./assets/images/mobile_version/main/types_of_repair/image3.png");
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__examples .mobile-section-types-of-repair_serves div {
+    position: absolute;
+    background: #fff;
+    width: 270px;
+    height: 241px;
+    left: 0;
+    top: 223px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__examples .mobile-section-types-of-repair_serves div h3 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 138.6%;
+    padding-left: 31px;
+    padding-top: 21px;
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__examples .mobile-section-types-of-repair_serves div ul {
+    height: 183px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #959595;
+    font-family: "FuturaBookC";
+    font-size: 13px;
+    line-height: 169.8%;
+    list-style: inside;
+    padding: 10px 41px 37px 31px;
+  }
+  .wrapper-mobile main .mobile-section-types_of_repair .mobile-section-types_of_repair_wrapper .mobile-section-types_of_repair__examples .mobile-section-types-of-repair_serves .button {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 190px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+    background: #E3B873;
+  }
+  .wrapper-mobile main .mobile-section-realize_your_fantasies {
+    position: relative;
+    height: 375px;
+    justify-content: space-around;
+  }
+  .wrapper-mobile main .mobile-section-realize_your_fantasies > ul {
+    height: 375px;
+    margin-top: -232px;
+    justify-content: space-around;
+  }
+  .wrapper-mobile main .mobile-section-realize_your_fantasies li:nth-child(1) h2 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 138.6%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+  }
+  .wrapper-mobile main .mobile-section-realize_your_fantasies .mobile-section-realize_your_fantasies__slider {
+    position: relative;
+    width: 340px;
+    height: 242px;
+    background: no-repeat url("./assets/images/mobile_version/main/realize_your_fantasies/image 5.3.png");
+  }
+  .wrapper-mobile main .mobile-section-realize_your_fantasies .mobile-section-realize_your_fantasies__slider li:nth-child(1) {
+    width: 36px;
+    height: 36px;
+    background: #E3B873;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 14px;
+  }
+  .wrapper-mobile main .mobile-section-realize_your_fantasies .mobile-section-realize_your_fantasies__slider li:nth-child(1) img {
+    left: 12px;
+    top: 11px;
+    position: absolute;
+  }
+  .wrapper-mobile main .mobile-section-realize_your_fantasies .mobile-section-realize_your_fantasies__slider li:nth-child(2) {
+    width: 36px;
+    height: 36px;
+    background: #E3B873;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    right: 14px;
+  }
+  .wrapper-mobile main .mobile-section-realize_your_fantasies .mobile-section-realize_your_fantasies__slider li:nth-child(2) img {
+    left: 15px;
+    top: 11px;
+    position: absolute;
+  }
+  .wrapper-mobile main .mobile-section-design-project {
+    position: relative;
+    height: 1700px;
+    color: #FFFFFF;
+    background: #131313;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-section-design-project__text_head li:first-child {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 138.6%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-section-design-project__text_head .mobile-section-design-project__text_head_logo {
+    flex-direction: row;
+    align-items: center;
+    width: 114px;
+    margin-bottom: 23px;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-section-design-project__text_head .mobile-section-design-project__text_head_logo li:nth-child(3) {
+    margin-bottom: 14px;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-section-design-project__text_head .mobile-section-design-project__text_head_logo li:nth-child(1) {
+    margin-bottom: 14px;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-section-design-project__text_content {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 135.84%;
+    text-align: center;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-mobile-section-design-project__colum1 {
+    position: relative;
+    height: 420px;
+    width: 340px;
+    background: no-repeat url("./assets/images/mobile_version/main/design_project/image1.png");
+    margin-top: 60px;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-mobile-section-design-project__colum2 {
+    position: relative;
+    height: 420px;
+    width: 340px;
+    background: no-repeat url("./assets/images/mobile_version/main/design_project/image2.png");
+    margin-top: 60px;
+  }
+  .wrapper-mobile main .mobile-section-design-project .mobile-mobile-section-design-project__colum3 {
+    position: relative;
+    height: 420px;
+    width: 340px;
+    background: no-repeat url("./assets/images/mobile_version/main/design_project/image3.png");
+    margin-top: 60px;
+  }
+  .wrapper-mobile main .mobile-section-design-project div {
+    position: absolute;
+    background: #fff;
+    width: 270px;
+    height: 177px;
+    left: 0;
+    top: 223px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+  }
+  .wrapper-mobile main .mobile-section-design-project div .mobile-section-design-project__colum1-text {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .wrapper-mobile main .mobile-section-design-project div .mobile-section-design-project__colum1-text h3 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 138.6%;
+    color: #363636;
+    padding-left: 31px;
+    padding-top: 18px;
+  }
+  .wrapper-mobile main .mobile-section-design-project div .mobile-section-design-project__colum1-text ul {
+    font-family: "FuturaBookC";
+    font-size: 13px;
+    line-height: 169.8%;
+    color: #959595;
+    align-items: flex-start;
+    justify-content: flex-start;
+    list-style: inside;
+    padding-left: 31px;
+    padding-top: 13px;
+  }
+  .wrapper-mobile main .mobile-section-design-project .button {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 190px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__text {
+    color: #FFFFFF;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__text h3 {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 138.6%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__text li:last-child {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 135.84%;
+    text-align: center;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__text .mobile-section-our-team__text_logo {
+    flex-direction: row;
+    align-items: center;
+    width: 114px;
+    margin-bottom: 23px;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__text .mobile-section-our-team__text_logo li:nth-child(3) {
+    margin-bottom: 14px;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__text .mobile-section-our-team__text_logo li:nth-child(1) {
+    margin-bottom: 14px;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper {
+    color: #FFFFFF;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div {
+    width: 339px;
+    height: 450px;
+    position: relative;
+    color: #FFFFFF;
+    margin-top: 54px;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div .mobile-section-our-team__content-main-team .mobile-section-our-team__content-main-team_icon {
+    position: absolute;
+    background: #E3B873;
+    padding: 11.75px 13px;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div .mobile-section-our-team__content-main-team .mobile-section-our-team__content-main-team_main-photo {
+    position: absolute;
+    top: 35px;
+    right: 0;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div .mobile-section-our-team__content-main-team .mobile-section-our-team__content-main-team-inform {
+    position: absolute;
+    background: #fff;
+    width: 235px;
+    height: 93px;
+    z-index: 15;
+    left: 65px;
+    top: 312px;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div .mobile-section-our-team__content-main-team .mobile-section-our-team__content-main-team-inform .mobile-section-our-team__content-main-team-inform-content {
+    height: 93px;
+    justify-content: center;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div .mobile-section-our-team__content-main-team .mobile-section-our-team__content-main-team-inform li:nth-child(1) {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 9px;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div .mobile-section-our-team__content-main-team .mobile-section-our-team__content-main-team-inform li:nth-child(2) {
+    font-family: "FuturaBookC";
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #959595;
+  }
+  .wrapper-mobile main .mobile-section-our-team .mobile-section-our-team__wrapper div .mobile-section-our-team__content-main-team .mobile-section-our-team__content-main-team-inform-work-experience {
+    position: absolute;
+    width: 235px;
+    height: 44px;
+    background: #E3B873;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 20;
+    left: 65px;
+    top: 405px;
+  }
+  .wrapper-mobile main .mobile-section-question {
+    color: #FFFFFF;
+    margin-top: 75px;
+  }
+  .wrapper-mobile main .mobile-section-question .mobile-section-question__content .mobile-section-question__content-wrapper .mobile-section-question__content-head {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .wrapper-mobile main .mobile-section-question .mobile-section-question__content .mobile-section-question__content-wrapper .mobile-section-question__content-main {
+    color: #959595;
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .wrapper-mobile main .mobile-section-question .mobile-section-question__content .mobile-section-question__content-wrapper .mobile-section-question__content-main .mobile-section-question__content-main-personal-data li {
+    margin: 20px auto;
+  }
+  .wrapper-mobile main .mobile-section-question .mobile-section-question__content .mobile-section-question__content-wrapper .mobile-section-question__content-main .mobile-section-question__content-main-personal-data label {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+  }
+  .wrapper-mobile main .mobile-section-question .mobile-section-question__content .mobile-section-question__content-wrapper .mobile-section-question__content-main .mobile-section-question__content-main-personal-data input.text-area {
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    background: transparent;
+    color: #FFFFFF;
+    font-family: "FuturaBookC";
+    font-size: 18px;
+    line-height: 25px;
+    width: 340px;
+  }
+  .wrapper-mobile main .mobile-section-question .mobile-section-question__content .mobile-section-question__content-wrapper .mobile-section-question__content-main .mobile-section-question__content-agree {
+    margin-left: -85px;
+    margin-bottom: 50px;
+  }
+  .wrapper-mobile main .mobile-section-question .mobile-section-question__content .mobile-section-question__content-wrapper .button {
+    width: 340px;
+    height: 50px;
+    color: #FFFFFF;
+    background: #E3B873;
+    font-family: "FuturaDemiC";
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px;
+  }
+  .wrapper-mobile main .mobile-section-map {
+    margin: 50px 0;
+  }
+  .wrapper-mobile footer {
+    color: #E3B873;
+  }
+  .wrapper-mobile footer .mobile-footer__wrapper {
+    height: 170px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .wrapper-mobile footer .mobile-footer__text {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 138.6%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .wrapper-mobile footer .mobile-footer__text li > a {
+    color: #E3B873;
+    text-decoration: none;
+  }
+  .wrapper-mobile footer .mobile-section-map-content-icon-area {
+    width: 71px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .wrapper-mobile footer .mobile-section-map-content-icon-area .mobile-section-map-content-icon {
+    width: 28px;
+    height: 28px;
+    background: #E3B873;
+    border-radius: 50%;
+  }
+  .wrapper-mobile footer .mobile-section-map-content-icon-area .mobile-section-map-content-icon .instagram_icon {
+    margin-top: 7px;
+    margin-left: 7px;
+  }
+  .wrapper-mobile footer .mobile-section-map-content-icon-area .mobile-section-map-content-icon .mail {
+    margin-top: 7px;
+    margin-left: 2px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
